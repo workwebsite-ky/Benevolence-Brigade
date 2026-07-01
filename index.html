@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Benevolence Brigade — A nonprofit charity dedicated to uplifting communities, empowering lives, and creating lasting change through compassion and action." />
+  <meta name="keywords" content="charity, nonprofit, community service, donate, volunteer, humanitarian aid, Benevolence Brigade" />
+  <title>Benevolence Brigade | Compassion in Action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">BB</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- STICKY NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bb">BB</span>
+        <span class="logo-text">Benevolence Brigade</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#impact" class="nav-link">Impact</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#donate" class="btn-nav-donate">Donate Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HOME PAGE ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=1600&q=80" alt="Volunteers working together" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">Nonprofit Organization</div>
+      <h1 class="hero-title reveal">
+        Change Begins<br />
+        <em>With Compassion</em>
+      </h1>
+      <p class="hero-subtitle reveal">
+        We are the Benevolence Brigade — a movement of hearts united to lift communities, restore dignity, and build a world where no one is left behind.
+      </p>
+      <div class="hero-ctas reveal">
+        <a href="#donate" class="btn-primary">Donate Today</a>
+        <a href="#about" class="btn-secondary">Our Mission</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <div class="intro-strip">
+    <div class="strip-inner">
+      <div class="strip-item reveal">
+        <span class="strip-num" data-target="12000">0</span><span>+</span>
+        <p>Lives Impacted</p>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item reveal">
+        <span class="strip-num" data-target="340">0</span><span>+</span>
+        <p>Volunteers</p>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item reveal">
+        <span class="strip-num" data-target="48">0</span><span>+</span>
+        <p>Communities Served</p>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item reveal">
+        <span class="strip-num" data-target="9">0</span><span>+</span>
+        <p>Years of Service</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT TEASER -->
+  <section class="about-teaser" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images reveal">
+          <div class="img-stack">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80" alt="Community help" class="img-main" />
+            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&q=80" alt="Volunteers" class="img-accent" />
+          </div>
+          <div class="about-badge-float">
+            <div class="badge-year">Est. 2015</div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section-label">Who We Are</div>
+          <h2 class="section-title">A Brigade Built on Belief in Humanity</h2>
+          <p class="body-text">The Benevolence Brigade was founded on a simple truth: every person deserves dignity, opportunity, and care. What started as a small group of volunteers has grown into a trusted nonprofit serving thousands across underserved communities.</p>
+          <p class="body-text">We believe lasting change is built through sustained compassion — not one-time gestures, but ongoing commitment to those who need it most.</p>
+          <div class="about-values">
+            <div class="value-pill">❤ Compassion</div>
+            <div class="value-pill">🤝 Integrity</div>
+            <div class="value-pill">🌍 Impact</div>
+            <div class="value-pill">✨ Hope</div>
+          </div>
+          <a href="#programs" class="btn-primary">Explore Our Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS / SERVICES -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title">Our Core Programs</h2>
+        <p class="section-subtitle">From emergency relief to long-term empowerment, our programs address the root causes of hardship with dignity and purpose.</p>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card reveal">
+          <div class="program-icon">🍽</div>
+          <div class="program-img-wrap">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Food Relief" />
+          </div>
+          <h3>Food Relief</h3>
+          <p>Nutritious meals and food packages delivered weekly to families facing food insecurity in underserved neighborhoods.</p>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-icon">📚</div>
+          <div class="program-img-wrap">
+            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80" alt="Education" />
+          </div>
+          <h3>Education Access</h3>
+          <p>Scholarships, tutoring programs, and school supplies for children from low-income families — because every child deserves to learn.</p>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-icon">🏠</div>
+          <div class="program-img-wrap">
+            <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=600&q=80" alt="Shelter" />
+          </div>
+          <h3>Shelter & Housing</h3>
+          <p>Emergency shelter assistance and transitional housing support for families facing homelessness or displacement.</p>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-icon">💊</div>
+          <div class="program-img-wrap">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Healthcare" />
+          </div>
+          <h3>Healthcare Outreach</h3>
+          <p>Free medical camps, mental health resources, and health education programs that bring care directly to communities.</p>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-icon">💼</div>
+          <div class="program-img-wrap">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80" alt="Skills Training" />
+          </div>
+          <h3>Skills & Livelihood</h3>
+          <p>Vocational training, job placement support, and microfinance grants empowering individuals to build sustainable futures.</p>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+        <div class="program-card reveal">
+          <div class="program-icon">🌱</div>
+          <div class="program-img-wrap">
+            <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600&q=80" alt="Environment" />
+          </div>
+          <h3>Community Greening</h3>
+          <p>Environmental projects and urban gardening initiatives creating clean, green, and thriving neighborhoods for everyone.</p>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT / WHY US -->
+  <section class="impact" id="impact">
+    <div class="impact-bg">
+      <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1600&q=80" alt="Community impact" />
+      <div class="impact-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="impact-content">
+        <div class="section-label light reveal">Our Impact</div>
+        <h2 class="section-title light reveal">Why the Brigade Matters</h2>
+        <div class="impact-grid">
+          <div class="impact-item reveal">
+            <div class="impact-icon">🎯</div>
+            <h4>Targeted Relief</h4>
+            <p>We identify the most vulnerable communities first and deploy resources where impact is greatest.</p>
+          </div>
+          <div class="impact-item reveal">
+            <div class="impact-icon">🔍</div>
+            <h4>Full Transparency</h4>
+            <p>Every dollar donated is tracked and reported. We publish annual impact reports with complete financial disclosure.</p>
+          </div>
+          <div class="impact-item reveal">
+            <div class="impact-icon">🤝</div>
+            <h4>Community-Led</h4>
+            <p>Our programs are designed with communities, not for them — local voices guide every decision we make.</p>
+          </div>
+          <div class="impact-item reveal">
+            <div class="impact-icon">⚡</div>
+            <h4>Rapid Response</h4>
+            <p>When disaster strikes, our volunteer network mobilizes within 24 hours to deliver essential aid.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Stories of Change</div>
+        <h2 class="section-title">Words From Those We've Served</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p>The Benevolence Brigade didn't just give my children food — they gave us hope. After losing my job, I didn't know how we'd survive. These angels appeared at our doorstep.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SF</div>
+            <div>
+              <strong>Safia F.</strong>
+              <span>Mother of 3, Karachi</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal featured">
+          <div class="testi-quote">"</div>
+          <p>I received a scholarship through their education program. Today I'm a medical student. I owe my future to this incredible organization and their belief in young people.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AR</div>
+            <div>
+              <strong>Ahmed R.</strong>
+              <span>Medical Student, Lahore</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p>Volunteering with BB changed my life as much as the lives we touched. The team is dedicated, professional, and genuinely caring. I'm proud to be part of this family.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">LM</div>
+            <div>
+              <strong>Layla M.</strong>
+              <span>Volunteer, 4 Years</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE / PACKAGES -->
+  <section class="donate" id="donate">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Give & Transform</div>
+        <h2 class="section-title">Choose How You Give</h2>
+        <p class="section-subtitle">Every contribution — large or small — creates ripples of change. Find a giving level that feels right for you.</p>
+      </div>
+      <div class="donate-grid">
+        <div class="donate-card reveal">
+          <div class="donate-tier">Supporter</div>
+          <div class="donate-amount">$25<span>/month</span></div>
+          <ul class="donate-benefits">
+            <li>✓ Feed a child for a week</li>
+            <li>✓ Monthly impact newsletter</li>
+            <li>✓ Supporter badge & certificate</li>
+            <li>✓ Tax-deductible receipt</li>
+          </ul>
+          <a href="mailto:contactglanders@gmail.com?subject=Donation%20-%20Supporter%20Tier" class="btn-donate">Become a Supporter</a>
+        </div>
+        <div class="donate-card featured reveal">
+          <div class="popular-badge">Most Popular</div>
+          <div class="donate-tier">Champion</div>
+          <div class="donate-amount">$75<span>/month</span></div>
+          <ul class="donate-benefits">
+            <li>✓ Fund a family's monthly groceries</li>
+            <li>✓ Sponsor school supplies for 2 kids</li>
+            <li>✓ Quarterly impact video report</li>
+            <li>✓ Champion Certificate & recognition</li>
+            <li>✓ Priority volunteer onboarding</li>
+          </ul>
+          <a href="mailto:contactglanders@gmail.com?subject=Donation%20-%20Champion%20Tier" class="btn-donate featured">Become a Champion</a>
+        </div>
+        <div class="donate-card reveal">
+          <div class="donate-tier">Brigade Leader</div>
+          <div class="donate-amount">$200<span>/month</span></div>
+          <ul class="donate-benefits">
+            <li>✓ Sponsor a full program for a month</li>
+            <li>✓ Named recognition on our Wall of Honor</li>
+            <li>✓ Personal impact coordinator</li>
+            <li>✓ Annual gala invitation</li>
+            <li>✓ Corporate partnership opportunities</li>
+          </ul>
+          <a href="mailto:contactglanders@gmail.com?subject=Donation%20-%20Brigade%20Leader%20Tier" class="btn-donate">Become a Leader</a>
+        </div>
+      </div>
+      <div class="donate-custom reveal">
+        <p>Want to make a custom donation or corporate gift? <a href="mailto:contactglanders@gmail.com">Contact us directly →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Questions</div>
+        <h2 class="section-title">Frequently Asked</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-q">How is my donation used? <span class="faq-arrow">+</span></button>
+          <div class="faq-a"><p>90% of all donations go directly to our programs. The remaining 10% covers essential operational costs. We publish a full financial report annually — complete transparency is our commitment to you.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Is my donation tax-deductible? <span class="faq-arrow">+</span></button>
+          <div class="faq-a"><p>Yes. The Benevolence Brigade is a registered nonprofit organization. All donations are tax-deductible and you will receive an official receipt within 24 hours of your contribution.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">How can I volunteer? <span class="faq-arrow">+</span></button>
+          <div class="faq-a"><p>We welcome volunteers of all backgrounds! Reach out to us at contactglanders@gmail.com or fill out our contact form below. Our volunteer coordinator will get in touch within 2 business days.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Can businesses partner with Benevolence Brigade? <span class="faq-arrow">+</span></button>
+          <div class="faq-a"><p>Absolutely. We have corporate partnership programs including CSR collaborations, matching gift programs, and co-branded campaigns. Email us to explore what partnership looks like for your organization.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">How do I know my impact? <span class="faq-arrow">+</span></button>
+          <div class="faq-a"><p>Every donor receives regular impact updates — stories, photos, and metrics showing exactly what your generosity has made possible. Champions and Leaders receive personalized impact reports.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="section-label">Reach Out</div>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="body-text">Whether you want to donate, volunteer, partner, or simply learn more — we'd love to hear from you. Every message matters to us.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="detail-icon">✉</div>
+              <div>
+                <strong>Email Us</strong>
+                <a href="mailto:contactglanders@gmail.com">contactglanders@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="detail-icon">🌐</div>
+              <div>
+                <strong>Follow Our Work</strong>
+                <div class="social-links">
+                  <a href="#" class="social-link">Facebook</a>
+                  <a href="#" class="social-link">Instagram</a>
+                  <a href="#" class="social-link">Twitter</a>
+                  <a href="#" class="social-link">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="">Select a topic…</option>
+                <option value="donate">I want to donate</option>
+                <option value="volunteer">I want to volunteer</option>
+                <option value="partner">Corporate partnership</option>
+                <option value="general">General inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell us how you'd like to help or what you need…" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">Send Message ✈</button>
+            <p class="form-note">We respond within 24 hours. Your information is never shared.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span class="logo-bb">BB</span>
+              <span>Benevolence Brigade</span>
+            </div>
+            <p>A nonprofit organization committed to compassion, dignity, and lasting community transformation.</p>
+            <div class="footer-socials">
+              <a href="#" aria-label="Facebook">f</a>
+              <a href="#" aria-label="Instagram">in</a>
+              <a href="#" aria-label="Twitter">tw</a>
+              <a href="#" aria-label="LinkedIn">li</a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h5>Navigate</h5>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#programs">Programs</a></li>
+              <li><a href="#impact">Our Impact</a></li>
+              <li><a href="#donate">Donate</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h5>Programs</h5>
+            <ul>
+              <li><a href="#programs">Food Relief</a></li>
+              <li><a href="#programs">Education Access</a></li>
+              <li><a href="#programs">Shelter & Housing</a></li>
+              <li><a href="#programs">Healthcare Outreach</a></li>
+              <li><a href="#programs">Skills & Livelihood</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h5>Contact</h5>
+            <p>✉ <a href="mailto:contactglanders@gmail.com">contactglanders@gmail.com</a></p>
+            <p>💬 contactglanders@gmail.com</p>
+            <div class="newsletter">
+              <h5>Stay Connected</h5>
+              <div class="newsletter-form">
+                <input type="email" placeholder="Enter your email" />
+                <button>→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Benevolence Brigade. All rights reserved. | Registered Nonprofit Organization</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+          <a href="#">Annual Report</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
